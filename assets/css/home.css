@@ -92,7 +92,7 @@
     .banner-area::before { 
         content: "";
         display: block;
-        width: 200px;
+        width: 0;
         height: 100%;
         background: #384aeb;
         position: absolute;
@@ -174,13 +174,13 @@
 
 /* Scale-product */
 
-img {
-    max-width: 100%;
-}
-
 .section .product {
     position: relative;
     overflow: hidden;
+}
+
+.section .product .card-img-box img{
+    width: 100%;
 }
 
 .card-img-box img {
