@@ -132,14 +132,14 @@ h4{
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: red !important;
+    color: #bebcbc !important;
     opacity: 1; /* Firefox */
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: red !important;
+    color: #bebcbc !important;
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
-    color: red !important;
+    color: #bebcbc !important;
   }
