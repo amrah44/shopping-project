@@ -71,8 +71,23 @@
 .login-area .login-bg{
     height: 620px;
     width: 100%;
-    background: #384aeb;
 } 
+
+.login-area .login-bg::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #384aeb;
+}
+
+@media only screen and (max-width: 992px){
+    .login-area .login-bg{
+        height: 420px;
+    } 
+}
 
 .login-area .title{
     position: absolute;
@@ -98,8 +113,14 @@
 }
 
 .login-area .login-form{
-    padding-top: 110px;
+    padding-top: 100px;
     height: 100%;
+}
+
+@media only screen and (max-width: 992px){
+    .login-area .login-form{
+        height: 420px;
+    } 
 }
 
 .login-area .login-form h3{
@@ -114,6 +135,7 @@
 .login-area .login-form .loginForm{
     max-width: 380px;
     margin: auto;
+    padding: 0 20px 0 20px;
 }
 
 .login-area .login-form .loginForm .login-form-control{
@@ -220,7 +242,7 @@
 }
 
 .footer-area .p-tb{
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 120px;
 }
 

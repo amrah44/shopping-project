@@ -171,6 +171,10 @@
     background: #384aeb;
 }
 
+.section-sidebar .input-group .input-src::placeholder{
+    color: #fff !important;
+}
+
 .section-sidebar .input-group .button-src{
     position: absolute;
     top: 50%;
