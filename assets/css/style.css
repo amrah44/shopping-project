@@ -37,7 +37,7 @@ ul {
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .hd-color {
@@ -143,3 +143,5 @@ h4{
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: #bebcbc !important;
   }
+
+  
