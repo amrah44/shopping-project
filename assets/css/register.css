@@ -72,7 +72,24 @@
 .register-area .register-bg{
     height: 620px;
     width: 100%;
+
+}
+
+.register-area .register-bg::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
     background: #384aeb;
+}
+
+@media only screen and (max-width: 992px){
+    .register-area .register-bg{
+        height: 420px;
+        width: 100%;
+    }
 }
 
 .register-area .title{
@@ -99,8 +116,15 @@
 }
 
 .register-area .register-form{
-    padding-top: 110px;
+    padding-top: 100px;
     height: 100%;
+}
+
+@media only screen and (max-width: 992px){
+    .register-area .register-form{
+        height: 530px;
+        width: 100%;
+    }
 }
 
 .register-area .register-form h3{
@@ -115,6 +139,7 @@
 .register-area .register-form .registerForm{
     max-width: 380px;
     margin: auto;
+    padding: 0 20px 0 20px;
 }
 
 .register-area .register-form .registerForm .register-form-control{
@@ -224,7 +249,7 @@
 }
 
 .footer-area .p-tb{
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 120px;
 }
 
