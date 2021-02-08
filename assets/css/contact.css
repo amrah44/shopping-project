@@ -50,6 +50,15 @@
     color: #090a0c;
 }
 
+.shop-area .nav-badge{
+    font-size: 9px;
+    text-align: center;
+    line-height: 10px;
+    padding: 2px 4px 2px 4px;
+    position: absolute;
+    top: 26px;
+}
+
 .shop-area .nav-item .button {
     display: inline-block;
     border: 1px solid #384aeb;
