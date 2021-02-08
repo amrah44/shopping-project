@@ -182,6 +182,7 @@
 
 .section-sidebar .input-group .input-src:focus{
     color: #fff;
+    z-index: 0;
 }
 
 .section-sidebar .input-group .input-src::placeholder{
