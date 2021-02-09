@@ -23,12 +23,13 @@
     transition: all 0.3s;
 }
 
-@media only screen and (max-width: 992px){
-    .nav-menu .nav-link{
+@media only screen and (max-width: 992px) {
+    .nav-menu .nav-link {
         font-size: 15px;
         padding: 12px 0 !important;
     }
-    .nav-right{
+
+    .nav-right {
         margin-bottom: 45px;
     }
 }
@@ -52,7 +53,7 @@
     color: #090a0c;
 }
 
-.nav-right .nav-badge{
+.nav-right .nav-badge {
     font-size: 9px;
     text-align: center;
     line-height: 10px;
@@ -79,13 +80,14 @@
     color: #090a0c;
 }
 
-.header-area .navbar .navToggler:focus{
+.header-area .navbar .navToggler:focus {
     box-shadow: none;
 }
 
-.header-area .navbar .navToggler .icon-bar i{
+.header-area .navbar .navToggler .icon-bar i {
     font-size: x-large;
 }
+
 /* Header Nav-menu end*/
 
 /* ---Banner--- */
@@ -112,22 +114,38 @@
     left: 0;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1060px) {
     .banner-area::before {
-        width: 200px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-area::before {
+        display: block !important;
+        width: 210px;
     }
 }
 
 @media only screen and (max-width: 576px) {
     .banner-area::before {
-        content: "";
-        display: block;
-        width: 50px;
-        height: 100%;
-        background: #384aeb;
-        position: absolute;
-        top: 0;
-        left: 0;
+        width: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .banner-area .banner-content .hd-md-35px {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-area .banner-content .hd-sm-25px {
+        font-size: 25px;
+    }
+
+    .banner-content {
+        margin-bottom: 15px;
     }
 }
 
