@@ -326,9 +326,14 @@
     border: 1px solid #ddd;
 }
 
-.product-box .card-product{
+.product-box .product-item{
     padding: 20px 0;
     border: 0;
+}
+
+.product-box .product-item img {
+    max-width: 70px;
+    height: auto;
 }
 
 .product-box h5{
