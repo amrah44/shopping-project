@@ -82,6 +82,7 @@ h4{
     border: 1px solid #384aeb;
     border-radius: 35px;
     background: #384aeb;
+    white-space: nowrap;
     font-weight: 500;
     padding: 13px 40px;
     color: #ffffff;
